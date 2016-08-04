@@ -1,0 +1,138 @@
+body {
+	font-family: Arial;
+	font-size:14px;
+}
+
+#topNavbar {
+	position: absolute;
+	right:65px;
+	top:15px;
+	width:250px ;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#topNavbar a {
+	text-decoration: none;
+	color: #6c7a89;
+	padding:2%;
+}
+
+#signInButton {
+	position: absolute;
+	right:10px;
+	top:15px;
+	width:65px;
+	height:30px;
+	background:-webkit-linear-gradient(top,#4387fd,#4683ea);
+	text-align: center;
+	line-height:30px;
+	color:white;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+#googleLogo {
+	width: 270px;
+	height: 90px;
+	background-image: url("https://www.google.com.sg/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+	margin:200px auto;
+}
+
+#searchBox {
+	width: 600px;
+	height: 32px;
+	margin: -170px auto;
+}
+
+input {
+	width: 600px;
+	height: 32px;
+	font-size: 20px;
+	text-indent: 5px;
+}
+
+
+#belowSearchBoxWrapper {
+	width: 277px;
+	height: 35px;
+	margin:200px auto;
+}
+
+#belowSearchBox {
+	position: absolute;
+	width: 277px;
+	height: 35px;
+}
+
+#searchButton, #luckyButton {
+	position: absolute;
+	height: 35px;
+	background-color: #f0f0f0;
+	text-align: center;
+	font-weight: bold;
+	color: #707070;
+	line-height: 35px;
+	border-radius: 1.5px;
+}
+
+#searchButton {
+	left: 0;
+	width: 120px;
+}
+
+#luckyButton {	
+	right: 0;
+	width:150px;
+}
+
+#luckyButton a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #707070;
+}
+
+#bottomNavbar {
+	position: absolute;
+	bottom: 0;
+	height: 35px;
+	width: 100%;
+	border-top:solid #d9d9d9 0.5px;
+	text-align: center;
+	line-height: 30px;
+	background:-webkit-linear-gradient(#f0f0f0, #ededed);
+}
+
+#bottomNavbar a {
+	text-decoration: none;
+	color:#808080;
+	padding-right: 20px;
+	font-size:12px;
+}
+
+#bottomLeft {
+	position: absolute;
+	left:25px;	
+}
+
+#bottomRight {
+	position: absolute;
+	right:25px;	
+}
+
+/*responsive design*/
+
+#searchButton:hover, #luckyButton:hover {
+	background:-webkit-linear-gradient(#fafafa, #f8f8f8);
+	border: 1px #d9d9d9 solid;
+}
+
+#topNavbar a:hover {
+	text-decoration: underline;
+}
+
+#bottomNavbar a:hover {
+	text-decoration: underline;
+}
+
